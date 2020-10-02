@@ -27,6 +27,35 @@ ul {
 }
 
 /* Basic Layout Styles */
+.portfolioLinkHeader {
+    background-color: #CD5C5C;
+    color: white;
+    padding: 15px;
+}
+
+#profileProjectName {
+    font-weight: bold;
+}
+
+.portfolioLink {
+    color: white;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    width: auto;
+}
+
+.portfolioLink:hover {
+    border-color: black;
+}
+
+.portfolioLinkHeader a:hover {
+    color: black;
+}
+
+.portfolioLinkHeader p{
+    margin: 0;
+    padding: 0;
+}
 
 header,
 footer {
